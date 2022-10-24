@@ -126,6 +126,7 @@ namespace Arrays
                 weapon += 1;
                 if (weapon > (weaponAmmount - 1)) weapon = 0;
             }
+            ammo[weapon] = ammo[weapon];
             DebugMenu();
         }
         static void HUD()
